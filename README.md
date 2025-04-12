@@ -1,66 +1,19 @@
-# TestNG Project
+# LambdaTest Hackathon Project
 
-## Overview
-This project is a TestNG-based testing framework designed for automated testing of web applications. It utilizes Maven for dependency management and build processes.
+This project demonstrates the use of Selenium WebDriver with TestNG for automated testing, integrated with LambdaTest's cloud-based Selenium Grid. Below are the key features and tools used:
 
-## Directory Structure
-The project follows a standard Maven directory structure:
+## Features
+- **Selenium WebDriver**: For browser automation.
+- **TestNG**: For test execution and reporting.
+- **Extent Reports**: For generating interactive HTML test reports.
+- **LambdaTest Integration**: For running tests on a cloud-based Selenium Grid with cross-browser and cross-platform support.
+- **ConfigReader Utility**: For managing sensitive credentials and configurations via a `application.properties` file.
 
-```
-TestNGProject
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── com
-│   │   │       └── example
-│   │   │           └── App.java
-│   │   └── resources
-│   │       └── application.properties
-│   ├── test
-│       ├── java
-│       │   └── com
-│       │       └── example
-│       │           └── AppTest.java
-│       └── resources
-│           └── testng.xml
-├── pom.xml
-└── README.md
-```
+## Highlights
+- Tests include login functionality and JavaScript alert handling.
+- Credentials and configurations are securely managed using a `application.properties` file.
+- Extent Reports provide detailed and interactive test execution reports.
+- LambdaTest capabilities are configured for remote execution.
 
-## Setup Instructions
-1. **Clone the Repository**
-   ```bash
-   git clone <repository-url>
-   cd TestNGProject
-   ```
-
-2. **Install Maven**
-   Ensure that Maven is installed on your machine. You can download it from [Maven's official website](https://maven.apache.org/download.cgi).
-
-3. **Build the Project**
-   Run the following command to build the project and download the necessary dependencies:
-   ```bash
-   mvn clean install
-   ```
-
-4. **Run Tests**
-   To execute the tests, use the following command:
-   ```bash
-   mvn test
-   ```
-
-## Usage
-- The `testng.xml` file defines the test suite and the test classes to be executed.
-- Test classes are located in the `src/test/java` directory.
-- Reports will be generated in the `reports/` directory after test execution.
-
-## Additional Files
-- **pom.xml**: Maven configuration file for managing dependencies and build settings.
-- **testng.xml**: Configuration file for TestNG test suites.
-- **requirements/credentials.properties**: Contains configuration properties, such as credentials needed for tests.
-- **src/main/java/pages/**: Contains page object classes for interacting with the application.
-- **src/test/java/tests/**: Contains test classes for verifying application functionality.
-- **src/test/java/utils/**: Contains utility classes for test setup and configuration management.
-
-## Conclusion
-This project provides a structured approach to automated testing using TestNG and Maven, making it easier to manage and execute tests efficiently.
+This is my QA Hackathon submission. I hope you all like it! If you need any assistance, feel free to contact me at kinivinayak07@gmail.com.
+Happy Testing!
